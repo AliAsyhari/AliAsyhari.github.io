@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+section {
+    min-height: 600px;
+}
+
+.vl {
+    border: 1px solid black;
+    max-height: 150px;
+}
+
+/* style map*/
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+/*style modal*/
+body {
+    position: relative;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 7rem auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+/*hover image*/
+
+.view {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #fff;
+}
+
+.view:hover .overlay {
+    opacity: 0.6;
+}
+
+.icon {
+    max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
