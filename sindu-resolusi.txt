@@ -2,3 +2,4 @@ halo ali, kampret
 
 hahaha
 -ini hanya coret2
+-angular
